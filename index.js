@@ -12,7 +12,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-  res.send("<h1>phone</h1><p>123455</p>");
+  res.send("<h1>phone</h1><p>+4477123455</p>");
 });
 
 app.listen(port, () => {
